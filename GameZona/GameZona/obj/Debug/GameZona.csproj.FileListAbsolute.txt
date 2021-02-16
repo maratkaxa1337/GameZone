@@ -1,0 +1,17 @@
+C:\Users\Администратор\source\repos\GameZona\GameZona\bin\Debug\GameZona.exe.config
+C:\Users\Администратор\source\repos\GameZona\GameZona\bin\Debug\GameZona.exe
+C:\Users\Администратор\source\repos\GameZona\GameZona\bin\Debug\GameZona.pdb
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.csprojAssemblyReference.cache
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\Views\Pages\Menu.g.cs
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\App.g.cs
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona_MarkupCompile.cache
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona_MarkupCompile.lref
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\Views\Pages\Menu.baml
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.g.resources
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.Properties.Resources.resources
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.csproj.GenerateResource.cache
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.exe
+C:\Users\Администратор\source\repos\GameZona\GameZona\obj\Debug\GameZona.pdb
