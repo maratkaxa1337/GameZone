@@ -1,0 +1,121 @@
+﻿<Page x:Class="Shop.Views.Pages.ClientEditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shop.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ClientEditPage">
+
+    <Grid Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Left">
+        <Button x:Name="Btnback"
+                Click="Btnback_Click"
+                Width="150"
+                Height="25"
+                Content="Назад"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            
+            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Фамилия"
+                        FontSize="20"
+                        Width="250"/>
+            <TextBox  x:Name="TxbLast"
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Имя"
+                        FontSize="20"
+                        Width="250"/>
+            <TextBox  x:Name="TxbFirst"
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Отчество"
+                        FontSize="20"
+                        Width="250"/>
+            <TextBox  x:Name="TxbPatronymic"
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Пол"
+                        FontSize="20"
+                        Width="250"/>
+            <ComboBox x:Name="CmbGender" 
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Телефон"
+                        FontSize="20"
+                        Width="250"/>
+            <TextBox  x:Name="TxbPhone"
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Дата Рождения"
+                        FontSize="20"
+                        Width="250"/>
+            <DatePicker Name="DateBritch" 
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>            
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Почта"
+                        FontSize="20"
+                        Width="250"/>
+            <TextBox  x:Name="TxbEmal"
+                      Width="400"
+                      Height="35"/>
+            </StackPanel>           
+
+            <StackPanel Orientation="Horizontal">
+                
+            <TextBlock Text="Дата Регистрации"
+                        FontSize="20"
+                        Width="250"/>
+            <DatePicker Name="DateRegister"
+                      Width="400"
+                      Height="35"/>
+            </StackPanel> 
+            
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Button x:Name="BtnSave"
+                    Width="250"
+                    Height="35"
+                    Content="Сохранение"
+                    FontSize="25"
+                    Click="BtnSave_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
